@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: aliceblue;
+  
+}
+
+.container{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.container img{
+    
+    width: 20px;
+    padding: 0.7rem;
+    border-radius: 50%;
+    background-color: hsl(214, 42%, 27%);
+    margin-left: 40px;
+    margin-top:-0.5rem;
+    margin-left: 2.3rem;
+}
+
+.headline{
+    
+    padding-bottom: 20px;
+    margin-left: 2.3rem;
+    margin-top:-4rem;
+}
+
+.text{
+    margin-top:-5rem;
+    text-align: left;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.4rem;
+    margin-left: 2.3rem;
+    
+}
+
+.container p{
+    margin-bottom: 1rem;
+}
+.container ul{
+    display:flex;
+    list-style-type: none;
+    
+  align-items: center;
+    justify-content: space-between;
+    margin-right: 3rem;
+    margin-top:-3rem;
+    
+    
+}
+
+
+.btn-button{
+    background-color: hsl(25, 97%, 53%);
+}
+
+
+.container ul li button{
+    width:3rem;
+    padding-top:0.2rem;
+    height: 3rem;
+    border-radius: 50%;
+    border:none;
+    cursor: pointer;
+    transition: 0.6s;
+    background-color:  hsl(213, 29%, 24%);
+    color: #fff;
+    font-weight: bold;
+
+
+}
+
+.container ul li button:hover{
+
+
+    background-color: hsl(25, 97%, 53%);
+}
+
+.container ul li button:focus{
+
+background-color: hsl(217, 12%, 63%);
+
+}
+
+.btn-submit{
+    width:335px;
+    margin-left: 2rem;
+    margin-top: -2.8rem;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 30px;
+    padding: 0.8rem 0 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color:#fff;
+    transition: 0.6s;
+    
+}
+
+
+.btn-submit:hover{
+
+    cursor: pointer;
+
+    background-color: hsl(217, 12%, 63%);
+}
+
+.btn-submit:focus{
+    background-color: hsl(25, 97%, 53%);
+
+}
+
+.secondContainer{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    
+    
+    
+}
+
+.photo{
+    width: 160px;
+    height: 120px;
+    margin:auto;
+    margin-top:40px
+   
+}
+
+.opinia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 24%, 20%);
+    border-radius: 20px;
+    width: 180px;
+    height: 35px;
+    margin: auto;
+    color:hsl(25, 97%, 53%) ;
+    margin-top:20px
+}
+
+.headline2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px
+}
+.text2{
+text-align: center;
+line-height: 1.4rem;
+font-size: 15;
+margin: 30px;
+color: hsl(217, 12%, 63%);
+margin-top:-25px
+
+}
+
+
+.hidden{
+    display: none;
+}
